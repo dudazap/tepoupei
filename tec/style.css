@@ -1,0 +1,237 @@
+nav {
+    display: flex;
+    width: 100%;
+   overflow-x: hidden; 
+   overflow-y: visible;
+}
+
+ul {
+    list-style: none;
+    display: inline-block;
+    align-self: center;
+}
+
+li{
+    display: inline;
+    margin: 30px;
+    
+}
+
+input{
+    height: 35px;
+    align-self: center;
+    width: 400px;
+  /*  background-image: ;
+    background-position: ; */
+}
+
+a{
+    text-decoration: none;
+    color: rgb(117, 117, 117);
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+a:hover {
+    color: rgb(255, 0, 0);
+}
+
+.dud {
+    color: rgb(255, 0, 0);
+}
+
+.logo {
+    margin: 10px;
+}
+
+.temas{
+    display: flex;
+    flex-direction: row;   
+  /*  height: 200px;*/
+    width: 100px; 
+   
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+}
+
+section nav div{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(133, 133, 133);
+    margin: 10px;
+    z-index: 5;
+}
+
+.imag nav div:hover {
+    transform: scale(1.1) translateY(-10px);
+    transition: all 250ms;
+}
+
+.imag nav div:hover > p{
+    color: red;
+}
+
+section nav div img {
+    border-radius: 20px;
+}
+
+.oto {
+    position: absolute;
+    z-index: 10;
+    top: 78%;
+    width: 100%;
+}
+
+.oto:hover {
+    transform: scale(1.0) translateY(0);
+}
+
+.doi {
+    position: absolute;
+    z-index: 10;
+    top: 25%;
+    width: 100%;
+}
+
+.doi:hover {
+    transform: scale(1.0) translateY(0);
+}
+
+.tre{
+    position: absolute;
+    z-index: 10;
+    top: 60%;
+    width: 100%;
+}
+
+.tre:hover{
+    transform: scale(1.0) translateY(0);
+}
+
+.quar {
+    position: absolute;
+    z-index: 10;
+    top: 95%;
+    width: 100%;
+}
+
+.quar:hover{
+    transform: scale(1.0) translateY(0);
+}
+
+.qui{
+    position: absolute;
+    z-index: 10;
+    top: 60%;
+    width: 100%;
+}
+
+.qui:hover{
+    transform: scale(1.0) translateY(0);
+}
+
+.sex{
+    position: absolute;
+    z-index: 10;
+    top: 25%;
+    width: 100%;
+}
+
+.sex:hover{
+    transform: scale(1.0) translateY(0);
+}
+
+.set{
+    position: absolute;
+    z-index: 10;
+    top: 25%;
+    width: 100%;
+}
+
+.set:hover{
+    transform: scale(1.0) translateY(0);
+}
+
+.ladinho1{
+    border-radius: 100%;
+    background-color: #ffffff00;
+    width: 64px;
+    height: 64px;
+    position: relative;
+    left: -46%;
+    border: none;
+}
+
+.ladinho2{
+    
+    border-radius: 100%;
+    background-color: #ffffff00;
+    width: 64px;
+    height: 64px;
+    position: relative;
+    left: 44%;
+    border: none;
+}
+
+.lupa {
+    height: 35px ;
+    align-self: center;
+    margin-left: -35px;
+}
+
+.uicpv {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 50px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.botaoesquer {
+    width: 100%;
+}
+
+.botaodireit {
+    width: 100%;
+}
+
+.youtube {
+    background-image: url("youtube.png");
+}
+.face{
+    background-image: url("facecbook.png");
+}
+
+.insta {
+    background-image: url("instagram.png");
+}
+
+.redesocial {
+    height: 30px;
+}
+.footer_social{
+    display:flex;
+    flex-direction: row;
+    background-color: rgb(224, 217, 217);
+}
+
+.footer_coluna {
+    background-color: rgb(224, 217, 217);
+    margin: auto 0%;
+}
+
+.rodape {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+}
+
+.subtitulorodape {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+footer {
+    width: 100%;
+}

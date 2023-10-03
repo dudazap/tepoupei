@@ -1,0 +1,11 @@
+{
+  "homeMobileCountryCode": 310,
+  "homeMobileNetworkCode": 410,
+  "radioType": "gsm",
+  "carrier": "Vodafone",
+  "considerIp": true,
+  "cellTowers": [
+  ],
+  "wifiAccessPoints": [
+  ]
+}

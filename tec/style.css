@@ -46,7 +46,7 @@ a:hover {
 .temas{
     display: flex;
     flex-direction: row;   
-  /*  height: 200px;*/
+    height: 100px;
     width: 100px; 
    
 }
@@ -66,7 +66,7 @@ section nav div{
 }
 
 .imag nav div:hover {
-    transform: scale(1.1) translateY(-10px);
+    transform: scale(1.07);
     transition: all 250ms;
 }
 
@@ -155,14 +155,21 @@ section nav div img {
     transform: scale(1.0) translateY(0);
 }
 
+.bloco_anuncios{
+    position: relative;
+
+}
+
 .ladinho1{
     border-radius: 100%;
     background-color: #ffffff00;
     width: 64px;
     height: 64px;
-    position: relative;
-    left: -46%;
+    position: absolute;
+    top: 40%;
+    left: 0%;
     border: none;
+    z-index: 10;
 }
 
 .ladinho2{
@@ -171,9 +178,11 @@ section nav div img {
     background-color: #ffffff00;
     width: 64px;
     height: 64px;
-    position: relative;
-    left: 44%;
+    position: absolute;
+    top: 40%;
+    right: 0%;
     border: none;
+    z-index: 10;
 }
 
 .lupa {

@@ -244,3 +244,40 @@ section nav div img {
 footer {
     width: 100%;
 }
+
+
+.cadas{
+    background-color: rgba(226, 216, 163, 0.644);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+}
+
+.titulo {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+
+.container{
+    text-align: center;
+    background-color: rgba(226, 215, 163, 0.781);
+    width: 30%;
+    height: 57%;
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column; 
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.bott{
+    height: 40px;
+    width: 80px;
+}
